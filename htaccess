@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^inayacars\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.inayacars\.com$
+RewriteRule ^/?$ "http\:\/\/inayacars\.com\/Index\.html" [R=301,L]
+
